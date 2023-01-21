@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark" mode="ios">
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Atualizar
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img [src]="produto.imagem"></ion-img>  
+  
+  <form #form="ngForm" (ngSubmit)="update(form)">
+
+    <ion-card>
+      <h6><ion-label><strong>Nome:</strong></ion-label>
+      <ion-input type="text" name="produto" [ngModel]="produto.produto"></ion-input></h6>
+    </ion-card>
+
+    <ion-card>
+      <h6><ion-label><strong>Quantidade:</strong></ion-label>
+      <ion-input rows="4" type="number" name="quantidade" [ngModel]="produto.quantidade"></ion-input></h6>
+    </ion-card>
+
+        <ion-card>
+        <h6><ion-label><strong>Descrição:</strong></ion-label>
+      <ion-textarea rows="5" type="text" name="descricao" [ngModel]="produto.descricao"></ion-textarea></h6>
+    </ion-card>
+
+    <ion-card>
+      <h6><ion-label><strong>Preço:</strong></ion-label>
+    <ion-input  type="number" name="preco" [ngModel]="produto.preco">R$</ion-input></h6>
+  </ion-card>
+
+      <ion-card>
+        <h6><ion-label><strong>Imagem:</strong></ion-label>
+      <ion-input type="text" name="imagem" [ngModel]="produto.imagem"></ion-input></h6>
+      </ion-card>
+
+    <ion-button type="submit" color="success" expand="block">Atualizar</ion-button>
+  </form>
+
+</ion-content>

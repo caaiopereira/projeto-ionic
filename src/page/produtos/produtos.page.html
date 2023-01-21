@@ -1,0 +1,54 @@
+<ion-header [translucent]="true"> 
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+</ion-toolbar>
+<ion-title>NewSchool</ion-title>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">Produtos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide >
+      <ion-card><img  src="http://reducar.com.br/rio-de-janeiro/wp-content/uploads/2017/12/BANNER-SITE-LISTA-DE-MATERIAIS-01.png" /></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card><img src="https://i.pinimg.com/originals/d0/b1/84/d0b184a77484559116aa94d1d9582d39.png" /></ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card><img src="https://www.designi.com.br/images/preview/10029147-m.jpg" /></ion-card>
+    </ion-slide>
+  </ion-slides>
+
+
+  <ion-card >
+    <ion-card-header>
+      <ion-card-title>Volta às Aulas</ion-card-title>
+      <ion-card-subtitle>DESTAQUES</ion-card-subtitle>
+    </ion-card-header>
+
+
+    <ion-card-content  >
+      <ion-list *ngFor="let produto of listaProdutos">
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <ion-img [src]="produto.imagem"></ion-img>
+          </ion-thumbnail>
+          <ion-label><strong>{{produto.produto}}</strong></ion-label>
+          <ion-label><strong>R${{produto.preco}}</strong></ion-label>
+          <ion-button color="primary" [routerLink]="['/carrinho',produto.id]">Comprar</ion-button>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+
+
+</ion-content>

@@ -1,0 +1,124 @@
+{
+  "lista": [
+    {
+      "produto": "Cola Branca",
+      "quantidade": 1,
+      "descricao": "90 Gramas, Lavável, Bico com espátula aplicador, Tampa no tubo antivazamento, Com registro no Conselho Regional de Química, Atóxico, Composição: Resina, PVA(acetado de polivinila), glicerina, água e conservantes",
+      "preco": 3.89,
+      "imagem": "https://leonora.vteximg.com.br/arquivos/ids/157269/cola_branca_liquida_40g-1.jpg",
+      "id": 1
+    },
+    {
+      "produto": "Grafite",
+      "quantidade": 1,
+      "descricao": "2.0mm, Composição: Grafite",
+      "preco": 1.22,
+      "imagem": "https://cdn.awsli.com.br/600x450/1740/1740928/produto/174512482/grafite-2-0-5d7baa7f.jpg",
+      "id": 2
+    },
+    {
+      "produto": "Massinha de Modelar",
+      "quantidade": 1,
+      "descricao": "180 Gramas, Composição: A base de amido. ",
+      "preco": 5.07,
+      "imagem": "https://www.papelariaartnova.com.br/img/products/massa-de-modelar-soft-12-cores-180g---acrilex_1_2000.jpg",
+      "id": 3
+    },
+    {
+      "produto": "Tinta Guache",
+      "quantidade": 1,
+      "descricao": "15ml, 6 Cores Sortidas",
+      "preco": 5.99,
+      "imagem": "https://images.tcdn.com.br/img/img_prod/981291/tinta_guache_15ml_acrilex_unidade_3321_1_b64d98d83241a3e40dc45fd44115daae.jpg",
+      "id": 4
+    },
+    {
+      "produto": "Folha de Papel Pardo",
+      "quantidade": 1,
+      "descricao": "66 Centímetros por 96 Centímetros Unidade, em diversas utilidades seja no envelopamento de produtos, uso em trabalhos escolares, escritórios etc.  ",
+      "preco": 1.31,
+      "imagem": "https://img.elo7.com.br/product/original/1CC0D42/25-folhas-papel-kraft-180-grs-a4-rustico-natural-liso-folha-de-papel.jpg",
+      "id": 5
+    },
+    {
+      "produto": "Pasta Fina",
+      "quantidade": 1,
+      "descricao": "Tamanho Ofício 23cm x 33cm Unidade, Cor cristal, Aba Elástico",
+      "preco": 2.99,
+      "imagem": "https://a-static.mlcdn.com.br/1500x1500/pasta-plastica-aba-elastico-fina-501pp-transparente-10un-dac/atacadosaopaulo/2046e4fc6f92ae6657d213cc0590d2d7/244a7b7d08729d7b5786797622eaeb2d.jpeg",
+      "id": 6
+    },
+    {
+      "produto": "Marca Texto",
+      "quantidade": 1,
+      "descricao": "Pincel Marca Texto Amarelo Slim Jocar Office com ponta chanfrada macia e tinta fluorescente, Secagem Rápida, Ponta Chanfrada ",
+      "preco": 1.49,
+      "imagem": "https://dwa1eg6c6pxyp.cloudfront.net/Custom/Content/Products/10/36/1036499_caneta-marca-texto-amarelo-slim-jocar-office-22529_m1.jpg",
+      "id": 7
+    },
+    {
+      "produto": "Borracha",
+      "quantidade": 1,
+      "descricao": "Cor Verde, Super macia, Não esfarela, Produto isento de P.V.C, Não mancha o papel, Apaga mais fácil  ",
+      "preco": 1.52,
+      "imagem": "https://img.kalunga.com.br/fotosdeprodutos/068654z_1.jpg",
+      "id": 8
+    },
+    {
+      "produto": "Caneta Esferográfica",
+      "quantidade": 1,
+      "descricao": "Conte com um excelente custo benefício, sua carga dura muito mais, Tinta Hi-Tech que proporciona uma escrita suave e intensa do começo ao fim, Ponta média 1,0mm, Cor Azul, Tinta não tóxica, Corpo triangular  ",
+      "preco": 1.33,
+      "imagem": "https://images-americanas.b2w.io/produtos/94451806/imagens/caneta-esferografica-km-100-retratil-paper-mate-c-3-azul/94451805_1_large.jpg",
+      "id": 9
+    },
+    {
+      "produto": "Marca Texto",
+      "quantidade": 1,
+      "descricao": "Mini marca textos são fofos em formato de cenoura, cabe perfeitamente nas mãozinhas pequenas das crianças. Altura 5,5cm",
+      "preco": 6.99,
+      "imagem": "https://cdn.awsli.com.br/1000x1000/1898/1898681/produto/122764020/71695d818a.jpg",
+      "id": 10
+    },
+    {
+      "produto": "Mochila Juvenil",
+      "quantidade": 1,
+      "descricao": "Com design moderno e muito delicado, a Mochila combina com diferentes gostos e estilos. Confeccionada em poliéster, este modelo de acessório é extremamente leve e confortável de usar. As costas possuem tecido almofadado para não machucar ou causar desconforto ao corpo.",
+      "preco": 39.99,
+      "imagem": "https://emania.vteximg.com.br/arquivos/ids/214425-1000-1000/mochila-juvenil-happy-smile-personalizada-lilas--1-.png",
+      "id": 11
+    },
+    {
+      "produto": "Estojo Escolar Infantill",
+      "quantidade": 1,
+      "descricao": "A linha holográfica traz a energia do material combinado com estampas delicadas e um colorido suave que renovam e encantam! Linha confeccionada em material holográfico e com puxador personalizado. Estojo Duplo ",
+      "preco": 32.99,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_784614-MLB40589505428_012020-O.jpg",
+      "id": 12
+    },
+    {
+      "produto": "Apontador Coletor",
+      "quantidade": 1,
+      "descricao": "Apontador Coletor De 1 Furo Com Design Em Forma De Globo Terrestre, Possui Depósito.",
+      "preco": 7.99,
+      "imagem": "https://artnit.com.br/wp-content/uploads/2021/05/3154140511111-1.jpg",
+      "id": 13
+    },
+    {
+      "produto": "Lápis De Cor",
+      "quantidade": 1,
+      "descricao": "Lápis De Cor da CIS Colorcis com 12 cores vibrantes para garantir a diversão e a criatividade sendo na escola ou dia a dia. Corpo redondo, Corpo em madeira  ",
+      "preco": 6.99,
+      "imagem": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/215/982/products/7896326900505-2-350x3501-cf3c0949a326a6641e16631771236549-640-0.jpg",
+      "id": 14
+    },
+    {
+      "produto": "Apontador Com Depósito",
+      "quantidade": 1,
+      "descricao": "Apontador 1 Furo com Depósito Coelho é produzido com material durável, lâmina em aço carbono resistente e depósito com boa capacidade. O produto é ideal para o dia a dia escolar, auxiliando o aluno nas atividades de escrever, desenhar e colorir.",
+      "preco": 9.99,
+      "imagem": "https://cdn.dooca.store/1462/products/apontador-1-furo-com-deposito-coelho-325287_640x640+fill_ffffff.png",
+      "id": 15
+    }
+  ]
+}

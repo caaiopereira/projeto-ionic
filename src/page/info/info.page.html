@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark" mode="ios">
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+        Informações
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content> 
+
+<ion-card>
+  <img [src]="produto.imagem" />
+  <ion-card-header>
+    <ion-card-title>{{produto.produto}}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-card-subtitle>Preço:</ion-card-subtitle>
+    R$ {{produto.preco}}
+  </ion-card-content>
+  
+  <ion-card-content>
+    <ion-card-subtitle>Descrição:</ion-card-subtitle>
+    {{produto.descricao}}
+  </ion-card-content>
+
+</ion-card>
+
+
+</ion-content>

@@ -1,0 +1,22 @@
+Desenvolvimento App Mobile
+
+Projeto: Desenvolver uma aplicação de serviços com o modelo SIDEMENU
+
+Estrutura:
+	3 páginas:
+		- Inicial;
+		- Quem Somos;
+		- Aprensentações dos produtos;
+
+Estrutura de navegação(rotas)
+Crud(Manipulação de dados estrutura cliente x servidor)
+
+Recursos(Competências):
+	- IonicNative (recursos nativos: camera, geolocalização..)
+	- APK (fechar uma aplicação)
+	- Controller (estrutura de navegação alem do menu principal)
+	- IPA (distribuir uma aplicação) 
+	
+	modelo (nome do serviço) wireframe
+	
+	https://stackoverflow.com/questions/35287121/can-you-add-bootstrap-to-a-ionic-app

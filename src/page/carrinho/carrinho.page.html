@@ -1,0 +1,51 @@
+<ion-header [translucent]="true"> 
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar"></ion-back-button>
+    </ion-buttons>
+</ion-toolbar>
+<ion-title>NewSchool</ion-title>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">Carrinho</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-list >      
+      <ion-item-sliding>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <ion-img [src]="produto.imagem"></ion-img>  
+          </ion-thumbnail>
+          <ion-label><strong>{{produto.produto}}</strong></ion-label>
+          <ion-label><strong>Quant: {{produto.quantidade}}</strong></ion-label>
+        </ion-item>
+
+
+      <ion-item-options >
+        
+        <ion-item-option color="primary" [routerLink]="['/info',produto.id]">
+          <ion-icon name="information-circle-outline"></ion-icon>
+        </ion-item-option>
+        
+        <ion-item-option color="success" [routerLink]="['/form',produto.id]">
+        <ion-icon name="refresh-outline"></ion-icon>
+         </ion-item-option>
+
+        <ion-item-option  color="danger" (click)="deletar(produto.id)">
+          <ion-icon name="trash-outline"></ion-icon>          
+        </ion-item-option>
+       
+
+      </ion-item-options>
+
+      </ion-item-sliding>
+
+    </ion-list>
+  
+    
+</ion-content>
