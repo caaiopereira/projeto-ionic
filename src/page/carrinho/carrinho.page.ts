@@ -18,14 +18,9 @@ export class CarrinhoPage implements OnInit {
   constructor(
     //Nosso serviço de banco de dados
     private DataBase: DatabaseService,
-    //alertController - Ferramente que cria um alert
-    private alertCtrl: AlertController,
-    //ActionSheet
-    private actionSheet: ActionSheetController,
     //Serviço de utilidades 
     private utilidades: UtilityService,
     private activatedRoute: ActivatedRoute,
-    private router: Router,
   ) { }
 
   ngOnInit(){

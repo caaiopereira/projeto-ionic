@@ -1,4 +1,11 @@
 {
+  "user": [
+    {
+      "id": 1,
+      "nome": "caio",
+      "senha": "123"
+    }
+  ],
   "lista": [
     {
       "produto": "Cola Branca",

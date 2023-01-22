@@ -16,12 +16,9 @@ export class ProdutosPage implements OnInit {
 
   readonly API = "http://localhost:3000/lista/";
 
-  constructor(private DataBase: DatabaseService,
-    private alertCtrl: AlertController,
-    private actionSheet: ActionSheetController,
-    private utilidades: UtilityService,
-    private http: HttpClient ) { }
-
+  constructor(
+  private DataBase: DatabaseService,
+  private http: HttpClient ) { }
 
 
   ngOnInit() {

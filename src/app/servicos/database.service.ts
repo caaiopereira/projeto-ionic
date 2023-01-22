@@ -13,6 +13,7 @@ export class DatabaseService {
   }
 
   readonly API = "http://localhost:3000/lista/";
+  readonly USER = "http://localhost:3000/user/";
 
   constructor(private http: HttpClient) { }
 
@@ -29,13 +30,12 @@ export class DatabaseService {
     return this.http.post(this.API, JSON.stringify(dados), this.HttpOptions).subscribe()
   }
 
-  delItem(id: number){
-    return this.http.delete(this.API + id).subscribe();
+  postUser(dados: any){
+    return this.http.post(this.USER, JSON.stringify(dados), this.HttpOptions).subscribe()
   }
 
-  //Metodo de alteração do status
-  statusItem(item: Produtos){
-    return this.http.put(this.API + item.id, JSON.stringify(item), this.HttpOptions).subscribe();
+  delItem(id: number){
+    return this.http.delete(this.API + id).subscribe();
   }
 
   //Método de atualização

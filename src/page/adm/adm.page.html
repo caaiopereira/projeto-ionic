@@ -1,0 +1,40 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar"></ion-back-button>
+    </ion-buttons>  
+</ion-toolbar>
+<ion-title>NewSchool</ion-title>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">Administração</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-card >
+    <ion-card-content  >
+      <ion-list *ngFor="let produto of listaProdutos">
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <ion-img [src]="produto.imagem"></ion-img>
+          </ion-thumbnail>
+          <ion-label><strong>{{produto.produto}}</strong></ion-label>
+          <ion-icon color="warning" [routerLink]="['/form',produto.id]" name="create-outline"></ion-icon>
+          <ion-icon color="danger" (click)="deletar(produto.id)" name="trash">Excluir</ion-icon>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!--Botão Flutuante-->
+  <ion-fab vertical="top" horizontal="end">
+    <ion-fab-button (click)="alertando()">
+      <ion-icon name="add-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

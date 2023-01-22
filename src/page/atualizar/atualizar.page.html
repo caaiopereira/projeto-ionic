@@ -1,15 +1,20 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="dark" mode="ios">
+  <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button text="Voltar"></ion-back-button>
-    </ion-buttons>
-    <ion-title>
-      Atualizar
-    </ion-title>
+    </ion-buttons>  
+</ion-toolbar>
+<ion-title>NewSchool</ion-title>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">Atualizar</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+
   <ion-img [src]="produto.imagem"></ion-img>  
   
   <form #form="ngForm" (ngSubmit)="update(form)">
