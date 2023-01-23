@@ -15,24 +15,24 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <ion-list >      
+    <ion-list>      
       <ion-item-sliding>
-        <ion-item>
+        <ion-item >
           <ion-thumbnail slot="start">
             <ion-img [src]="produto.imagem"></ion-img>  
           </ion-thumbnail>
           <ion-label><strong>{{produto.produto}}</strong></ion-label>
-          <ion-label><strong>Quant: {{produto.quantidade}}</strong></ion-label>
+          <ion-label><strong>Quant:{{produto.quantidade}}</strong></ion-label>
         </ion-item>
 
 
-      <ion-item-options >
+      <ion-item-options>
         
         <ion-item-option color="primary" [routerLink]="['/info',produto.id]">
           <ion-icon name="information-circle-outline"></ion-icon>
         </ion-item-option>
         
-        <ion-item-option color="danger" (click)="deletar(produto.id)" [routerLink]="['/produtos']">
+        <ion-item-option color="danger"  [routerLink]="['/produtos']">
           <ion-icon name="trash-outline"></ion-icon>          
         </ion-item-option>
        
@@ -45,3 +45,6 @@
   
     
 </ion-content>
+
+
+<ion-item>

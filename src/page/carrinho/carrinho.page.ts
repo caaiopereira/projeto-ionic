@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ActionSheetController, AlertController } from '@ionic/angular';
+import { ActionSheetController} from '@ionic/angular';
 import { Produtos } from 'src/app/model/produto/produto.module';
 import { DatabaseService } from 'src/app/servicos/database.service';
 import { UtilityService } from 'src/app/servicos/utility.service';
@@ -18,8 +18,6 @@ export class CarrinhoPage implements OnInit {
   constructor(
     //Nosso serviço de banco de dados
     private DataBase: DatabaseService,
-    //Serviço de utilidades 
-    private utilidades: UtilityService,
     private activatedRoute: ActivatedRoute,
   ) { }
 
@@ -32,17 +30,5 @@ export class CarrinhoPage implements OnInit {
     }
   }
 
-  //Metodo do botao excluir
-  deletar(id: number){
-
-    try{
-      this.DataBase.delItem(id);  
-    }catch(err){
-      console.log(err);
-    }finally{
-      //Chama a menssagem 
-      this.utilidades.toastando("Item Excluido", "bottom", 2000, "danger"); 
-    }  
-  } 
 
 }

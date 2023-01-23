@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { Produtos } from '../model/produto/produto.module';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,9 @@ export class DatabaseService {
   readonly API = "http://localhost:3000/lista/";
   readonly USER = "http://localhost:3000/user/";
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private router: Router) { }
 
   getItem(){
     return this.http.get<Produtos[]>(this.API);
@@ -37,6 +40,7 @@ export class DatabaseService {
   delItem(id: number){
     return this.http.delete(this.API + id).subscribe();
   }
+
 
   //Método de atualização
   updateItem(item: Produtos, id: any){

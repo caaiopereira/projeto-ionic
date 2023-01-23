@@ -18,6 +18,7 @@ export class ProdutosPage implements OnInit {
 
   constructor(
   private DataBase: DatabaseService,
+  private actionSheet: ActionSheetController,
   private http: HttpClient ) { }
 
 

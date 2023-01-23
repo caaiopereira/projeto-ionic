@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { AlertController } from '@ionic/angular';
 import { DatabaseService } from 'src/app/servicos/database.service';
@@ -19,6 +18,8 @@ export class LoginPage implements OnInit {
 
   ngOnInit() {
   }
+
+
 //Método do alertando 
 async alertando(){
   const alert = this.alertCtrl.create({
