@@ -3,6 +3,7 @@ import { AlertController } from '@ionic/angular';
 import { DatabaseService } from 'src/app/servicos/database.service';
 import { UtilityService } from 'src/app/servicos/utility.service';
 
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
